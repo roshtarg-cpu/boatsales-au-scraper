@@ -1,0 +1,12 @@
+{
+  "actorOutputSchemaVersion": 1,
+  "template": "https://api.apify.com/v2/datasets/{defaultDatasetId}/items?format=json&clean=true",
+  "properties": {
+    "datasetLink": {
+      "type": "string",
+      "title": "Dataset",
+      "description": "Complete scraped data",
+      "template": "https://api.apify.com/v2/datasets/{defaultDatasetId}/items?format=json&clean=true"
+    }
+  }
+}
